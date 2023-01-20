@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ghibli Review App</h1>
+        <img src="./images/ghibli-logo.png" alt="Ghibli logo">
+    </header>
+    <main>
+        <!-- Select a movie -->
+        <section>
+            <h2>Select a movie</h2>
+            <select  name="film" id="film">
+                <option id="" value=""></option>
+            </select>
+        </section>
+        <!-- Add a review -->
+        <section>
+        <h2>Add a review</h2>
+        <label for=""></label>
+        <form action="" for="review" id="review_form">
+            <label for="review">Your review: </label>
+            <input type="text" name="review" id="review" />
+            <input id="user_submit" type="submit" name="Submit">
+        </section>
+        <!-- Display movie info -->
+        <section>
+             <h2>Movie details</h2>
+             <div id="display-info">
+                <h3 id = "movie_name"></h3>
+                 <p id="release_year"></p>
+                 <p id="description"></p>
+            </div> 
+        </section>
+        <!-- Display reviews -->
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <ul id="user_review">
+            </ul>
+            <button id="reset-reviews">Reset Reviews</button>
+            <button id="show-people">Show People</button>
+        </section>
+        <section>
+            <ol id="people-names">
+            </ol>
+        </section>
+    </main>
+</body>
+</html>

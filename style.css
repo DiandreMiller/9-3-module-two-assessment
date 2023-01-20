@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(230, 230, 250);
+    font-family: monospace;
+    font-size:15px;
+    letter-spacing: 0.75px;
+}
+
+header{
+    background-color: skyblue;
+    margin-top: -0.50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+header h1{
+    text-align: right;
+    font-weight: bold;
+}
+
+img{
+    height: 30%;
+    width:30%;
+    margin-top: -4%;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#film{
+  width:20%;
+  padding:0.50%;
+}
+
+#review{
+    width:20%;
+    padding:0.50%;
+
+}
+
+main{
+    margin-left: 10%;
+}
+
+section{
+    margin-bottom: 1%;
+}
+
+#user_submit, #reset-reviews, #show-people{
+    padding:2px;
+    font-size:16px;
+    width:15%;
+    padding-bottom: 6px;
+    padding-top:6px;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 500px){
+    #reviews{
+        display: none;
+    }
+}
